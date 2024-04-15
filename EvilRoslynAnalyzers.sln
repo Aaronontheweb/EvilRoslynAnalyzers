@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D5093C78
 		global.json = global.json
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilRoslynAnalyzers.Tests", "src\EvilRoslynAnalyzers.Tests\EvilRoslynAnalyzers.Tests.csproj", "{73F34344-17F1-46FA-AB18-EF94AA9A52CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,5 +27,9 @@ Global
 		{A8C1224C-356B-43F7-825E-9230A08CA902}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8C1224C-356B-43F7-825E-9230A08CA902}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8C1224C-356B-43F7-825E-9230A08CA902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F34344-17F1-46FA-AB18-EF94AA9A52CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F34344-17F1-46FA-AB18-EF94AA9A52CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F34344-17F1-46FA-AB18-EF94AA9A52CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F34344-17F1-46FA-AB18-EF94AA9A52CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
