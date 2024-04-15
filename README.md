@@ -1,5 +1,5 @@
-# Akka.NET Console Template
+# Evil Roslyn Analyzers
 
-This is a simple template designed to incorporate local [Akka.NET](https://getakka.net/) into a console application.
+Enterprise-approved insane C# Roslyn Analyzers under the motto: "don't let productivity triumph over orthodoxy."
 
-See https://github.com/akkadotnet/akkadotnet-templates/blob/dev/docs/ConsoleTemplate.md for complete and current documentation on this template.
+* [`NoExtensionMethods`](https://www.reddit.com/r/dotnet/comments/1c4hz1z/linq_forbidden/) - especially LINQ. If classes were supposed to have these methods, they would have implemented via inheritance obviously.
