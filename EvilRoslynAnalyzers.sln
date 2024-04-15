@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvilRoslynAnalyzers", "src\EvilRoslynAnalyzers\EvilRoslynAnalyzers.csproj", "{A8C1224C-356B-43F7-825E-9230A08CA902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D5093C78-876F-4D7D-8A6C-05F1BBB92070}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8C1224C-356B-43F7-825E-9230A08CA902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C1224C-356B-43F7-825E-9230A08CA902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C1224C-356B-43F7-825E-9230A08CA902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C1224C-356B-43F7-825E-9230A08CA902}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
