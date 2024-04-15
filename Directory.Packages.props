@@ -7,4 +7,19 @@
     <PackageVersion Include="Akka.Hosting" Version="1.5.17.1" />
     <PackageVersion Include="Microsoft.CodeAnalysis" Version="4.9.2" />
   </ItemGroup>
+
+  <!-- Testing Utilities -->
+  <ItemGroup>
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp.CodeFix.Testing" Version="1.1.1"/>
+    <PackageVersion Include="Microsoft.CodeAnalysis.CSharp.Analyzer.Testing" Version="1.1.1"/>
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0"/>
+    <PackageVersion Include="xunit" Version="2.7.0"/>
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.7"/>
+    <PackageVersion Include="FluentAssertions" Version="6.12.0"/>
+    <PackageVersion Include="coverlet.collector" Version="6.0.1"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <GlobalPackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="all" />
+  </ItemGroup>
 </Project>
